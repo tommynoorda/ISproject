@@ -1,0 +1,56 @@
+body {
+    background-image: url(../images/oceanfloor.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.common {
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #000000;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.mainbody {
+    top: 114px;
+    bottom: 64px;
+    left: 114px;
+    right: 114px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+
+.footer{
+    bottom: 5px;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+}
+
+.subheader {
+    float: right;
+}
